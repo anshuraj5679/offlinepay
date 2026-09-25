@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App theme. Status bar uses the navy ink color so it blends with the
+         splash and dashboard chrome. -->
+    <style name="Theme.Offpay" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#FFFFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#FFFFFFFF</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!-- Splash uses a dark backdrop so the glow logo blends naturally. -->
+    <style name="Theme.Offpay.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#FF14171B</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">#FF14171B</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">#FF14171B</item>
+    </style>
+</resources>

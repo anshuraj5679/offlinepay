@@ -1,0 +1,10 @@
+build/
+.gradle/
+.gradle-user-home/
+local.properties
+*.iml
+.idea/
+
+# Release signing — never commit
+*.jks
+keystore.properties
