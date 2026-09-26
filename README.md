@@ -15,7 +15,7 @@ Polygon Amoy testnet · Solidity contracts · Android (Jetpack Compose) · ESP32
 
 </div>
 
----
+
 
 ## The problem we're solving
 
@@ -144,7 +144,7 @@ with the merchant's wallet address.
  │  └────────┘   └────────────┘   │  SPP to phone   │       │
  │                                └─────────────────┘       │
  └──────────────────────────────────────────────────────────┘
-```
+
 
 **Three command surfaces over BT SPP:**
 
